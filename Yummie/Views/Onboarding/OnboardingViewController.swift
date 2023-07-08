@@ -28,7 +28,7 @@ nextBtn.setTitle("Next", for: .normal)
 
 override func viewDidLoad() {
 super.viewDidLoad()
-// write this code in line 16, it does not depend on view cycle
+    
 slides = [
 OnboardingSlide(title: "Delicious Dishes", description: "Experience a variety of amazing dishes from different cultures around the world.", image: #imageLiteral(resourceName: "slide2")),
 OnboardingSlide(title: "World-Class Chefs", description: "Our dishes are prepared by only the best.", image: #imageLiteral(resourceName: "slide1")),
