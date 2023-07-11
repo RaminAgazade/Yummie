@@ -14,7 +14,7 @@
 		DE182DE42A4F0A710062F878 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DE182DE32A4F0A710062F878 /* Kingfisher */; };
 		DE182DE62A4F0B560062F878 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE182DE52A4F0B560062F878 /* String+Extension.swift */; };
 		DE182DE92A4F189A0062F878 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE182DE82A4F189A0062F878 /* CardView.swift */; };
-		DE8D82A12A59548000769CDD /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DE8D82A02A59548000769CDD /* JGProgressHUD */; };
+		DE709F4B2A5D70B8001B96A5 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DE709F4A2A5D70B8001B96A5 /* ProgressHUD */; };
 		DEA560BD2A59309200BF763E /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA560BC2A59309200BF763E /* AllDishes.swift */; };
 		DEB50C492A55AB9F0000C7A0 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB50C482A55AB9F0000C7A0 /* DishDetailViewController.swift */; };
 		DEB50C4B2A55B1950000C7A0 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB50C4A2A55B1950000C7A0 /* UIViewController+Extension.swift */; };
@@ -87,8 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8D82A12A59548000769CDD /* JGProgressHUD in Frameworks */,
 				DE182DE42A4F0A710062F878 /* Kingfisher in Frameworks */,
+				DE709F4B2A5D70B8001B96A5 /* ProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +306,7 @@
 			name = Yummie;
 			packageProductDependencies = (
 				DE182DE32A4F0A710062F878 /* Kingfisher */,
-				DE8D82A02A59548000769CDD /* JGProgressHUD */,
+				DE709F4A2A5D70B8001B96A5 /* ProgressHUD */,
 			);
 			productName = Yummie;
 			productReference = DEE4628A2A4B183F008E2DA0 /* Yummie.app */;
@@ -338,7 +338,7 @@
 			mainGroup = DEE462812A4B183F008E2DA0;
 			packageReferences = (
 				DE182DE22A4F0A710062F878 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				DE8D829F2A59548000769CDD /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				DE709F492A5D70B8001B96A5 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
 			);
 			productRefGroup = DEE4628B2A4B183F008E2DA0 /* Products */;
 			projectDirPath = "";
@@ -624,12 +624,12 @@
 				minimumVersion = 7.0.0;
 			};
 		};
-		DE8D829F2A59548000769CDD /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+		DE709F492A5D70B8001B96A5 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 13.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -640,10 +640,10 @@
 			package = DE182DE22A4F0A710062F878 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-		DE8D82A02A59548000769CDD /* JGProgressHUD */ = {
+		DE709F4A2A5D70B8001B96A5 /* ProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE8D829F2A59548000769CDD /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
-			productName = JGProgressHUD;
+			package = DE709F492A5D70B8001B96A5 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

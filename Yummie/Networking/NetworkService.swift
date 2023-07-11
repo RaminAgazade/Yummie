@@ -35,10 +35,10 @@ struct NetworkService {
                 result = .failure(error)
                 print("The error is: \(error.localizedDescription)")
                 
-                DispatchQueue.main.async {
-                    self.handleResponse(result: result, completion: completion)
                 }
-            }
+         
+                self.handleResponse(result: result, completion: completion)
+            
         }.resume()
         
     }
