@@ -15,6 +15,7 @@
 		DE182DE62A4F0B560062F878 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE182DE52A4F0B560062F878 /* String+Extension.swift */; };
 		DE182DE92A4F189A0062F878 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE182DE82A4F189A0062F878 /* CardView.swift */; };
 		DE709F4B2A5D70B8001B96A5 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DE709F4A2A5D70B8001B96A5 /* ProgressHUD */; };
+		DE709F4E2A5D7D77001B96A5 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE709F4D2A5D7D77001B96A5 /* IQKeyboardManagerSwift */; };
 		DEA560BD2A59309200BF763E /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA560BC2A59309200BF763E /* AllDishes.swift */; };
 		DEB50C492A55AB9F0000C7A0 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB50C482A55AB9F0000C7A0 /* DishDetailViewController.swift */; };
 		DEB50C4B2A55B1950000C7A0 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB50C4A2A55B1950000C7A0 /* UIViewController+Extension.swift */; };
@@ -89,6 +90,7 @@
 			files = (
 				DE182DE42A4F0A710062F878 /* Kingfisher in Frameworks */,
 				DE709F4B2A5D70B8001B96A5 /* ProgressHUD in Frameworks */,
+				DE709F4E2A5D7D77001B96A5 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +309,7 @@
 			packageProductDependencies = (
 				DE182DE32A4F0A710062F878 /* Kingfisher */,
 				DE709F4A2A5D70B8001B96A5 /* ProgressHUD */,
+				DE709F4D2A5D7D77001B96A5 /* IQKeyboardManagerSwift */,
 			);
 			productName = Yummie;
 			productReference = DEE4628A2A4B183F008E2DA0 /* Yummie.app */;
@@ -339,6 +342,7 @@
 			packageReferences = (
 				DE182DE22A4F0A710062F878 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				DE709F492A5D70B8001B96A5 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				DE709F4C2A5D7D77001B96A5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = DEE4628B2A4B183F008E2DA0 /* Products */;
 			projectDirPath = "";
@@ -632,6 +636,14 @@
 				minimumVersion = 13.0.0;
 			};
 		};
+		DE709F4C2A5D7D77001B96A5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -644,6 +656,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE709F492A5D70B8001B96A5 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
 			productName = ProgressHUD;
+		};
+		DE709F4D2A5D7D77001B96A5 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE709F4C2A5D7D77001B96A5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
