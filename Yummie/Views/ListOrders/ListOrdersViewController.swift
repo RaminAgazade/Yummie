@@ -23,19 +23,22 @@ class ListOrdersViewController: UIViewController {
         
     }
     
-    /*override func viewDidAppear(_ animated: Bool) {
+     override func viewDidAppear(_ animated: Bool) {
         NetworkService.shared.fetchOrders { [weak self] (result) in
             switch result {
             case .success(let orders):
                 ProgressHUD.dismiss()
                 
                 self?.orders = orders
-                self?.tableView.reloadData()
+                DispatchQueue.main.async {
+                    self?.tableView.reloadData()
+                }
+               
             case .failure(let error):
                 ProgressHUD.showError(error.localizedDescription)
             }
         }
-    } */
+    } 
     
     private func registerCells() {
         tableView.register(UINib(nibName: DishListTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: DishListTableViewCell.identifier)

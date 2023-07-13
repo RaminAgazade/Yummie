@@ -27,7 +27,10 @@ class ListDishesViewController: UIViewController {
             case .success(let dishes):
                 ProgressHUD.dismiss()
                 self?.dishes = dishes
-                self?.tableView.reloadData()
+                DispatchQueue.main.async {
+                    self?.tableView.reloadData()
+                }
+                
             case .failure(let error):
                 ProgressHUD.showError(error.localizedDescription)
             }
