@@ -44,6 +44,7 @@ OnboardingSlide(title: "Instant World-Wide Delivery", description: "Your orders 
         let controller = storyboard?.instantiateViewController(identifier: "HomeNC") as! UINavigationController
         controller.modalPresentationStyle = .fullScreen
         controller.modalTransitionStyle = .flipHorizontal
+        UserDefaults.standard.hasOnboarded = true
         present(controller, animated: true, completion: nil)
     } else {
         currentPage += 1

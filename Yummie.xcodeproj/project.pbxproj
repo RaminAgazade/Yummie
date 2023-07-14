@@ -16,6 +16,7 @@
 		DE182DE92A4F189A0062F878 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE182DE82A4F189A0062F878 /* CardView.swift */; };
 		DE709F4B2A5D70B8001B96A5 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DE709F4A2A5D70B8001B96A5 /* ProgressHUD */; };
 		DE709F4E2A5D7D77001B96A5 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE709F4D2A5D7D77001B96A5 /* IQKeyboardManagerSwift */; };
+		DE9F0AC42A617A45001E92FF /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9F0AC32A617A45001E92FF /* UserDefaults+Extension.swift */; };
 		DEA560BD2A59309200BF763E /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA560BC2A59309200BF763E /* AllDishes.swift */; };
 		DEB50C492A55AB9F0000C7A0 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB50C482A55AB9F0000C7A0 /* DishDetailViewController.swift */; };
 		DEB50C4B2A55B1950000C7A0 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB50C4A2A55B1950000C7A0 /* UIViewController+Extension.swift */; };
@@ -52,6 +53,7 @@
 		DE182DE02A4F06A20062F878 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
 		DE182DE52A4F0B560062F878 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		DE182DE82A4F189A0062F878 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DE9F0AC32A617A45001E92FF /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		DEA560BC2A59309200BF763E /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
 		DEB50C482A55AB9F0000C7A0 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
 		DEB50C4A2A55B1950000C7A0 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				DEE462A82A4B2964008E2DA0 /* UIView+Extension.swift */,
 				DE182DE52A4F0B560062F878 /* String+Extension.swift */,
 				DEB50C4A2A55B1950000C7A0 /* UIViewController+Extension.swift */,
+				DE9F0AC32A617A45001E92FF /* UserDefaults+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				DEC732272A58C4BB008EA60F /* AppError.swift in Sources */,
 				DEBBC8232A4C3323009EC1DD /* OnboardingCollectionViewCell.swift in Sources */,
 				DECD76C82A543B6D0048402F /* Dish.swift in Sources */,
+				DE9F0AC42A617A45001E92FF /* UserDefaults+Extension.swift in Sources */,
 				DECD76C52A5425E70048402F /* DishPortraitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
